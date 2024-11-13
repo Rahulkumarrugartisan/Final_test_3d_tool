@@ -23,7 +23,9 @@
 
         document.body.style.textAlign = "left";
       }
-
+   </script>
+    
+     <script>
       let unityInstance = null; // Store the Unity instance globally
       
       createUnityInstance(document.querySelector("#unity-canvas"), {
@@ -35,7 +37,6 @@
         companyName: "DefaultCompany",
         productName: "Rugartian project",
         productVersion: "0.1.0",
-
          }).then((instance) => {
       console.log("Unity instance is ready!");
       unityInstance = instance; // Store instance globally
