@@ -39,9 +39,9 @@
       console.log("Unity instance is ready!");
       unityInstance = instance; // Store instance globally
       initializeUnityCommunication(); // Start listening for messages
-    }).catch((error) => {
+      }).catch((error) => {
       console.error("Unity failed to load:", error);
-    });
+      });
 
         
          // Message listener function
